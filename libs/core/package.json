@@ -1,6 +1,6 @@
 {
-  "name": "@ng-maps/core",
-  "version": "7.0.0",
+  "name": "@elionidrizi/ng-maps-core",
+  "version": "1.0.0",
   "keywords": [
     "angular",
     "ng",
@@ -12,12 +12,13 @@
   ],
   "homepage": "https://ng-maps.github.io/core",
   "bugs": {
-    "url": "https://github.com/ng-maps/ng-maps/issues"
+    "url": "https://github.com/elionidriziKODE/ng-maps/issues"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ng-maps/ng-maps.git"
+    "url": "https://github.com/elionidriziKODE/ng-maps.git",
+    "directory": "libs/core"
   },
   "peerDependencies": {
     "@angular/common": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
@@ -28,5 +29,10 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
-  }
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ]
 }

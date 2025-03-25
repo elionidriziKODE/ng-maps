@@ -1,36 +1,40 @@
 {
-  "name": "@ng-maps/marker-clusterer",
-  "version": "7.0.0",
+  "name": "@elionidrizi/ng-maps-marker-clusterer",
+  "version": "1.0.0",
   "keywords": [
     "angular",
     "ng",
-    "google maps",
-    "googlemaps",
     "maps",
     "map",
-    "google",
     "ng2",
     "angular2",
-    "marker cluster",
-    "agm"
+    "agm",
+    "markerclusterer"
   ],
+  "homepage": "https://ng-maps.github.io/marker-clusterer",
+  "bugs": {
+    "url": "https://github.com/elionidriziKODE/ng-maps/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elionidriziKODE/ng-maps.git",
+    "directory": "libs/marker-clusterer"
+  },
   "peerDependencies": {
     "@angular/common": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
     "@angular/core": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
-    "@ng-maps/core": "^6.0.0 || ^7.0.0",
-    "@ng-maps/google": "^6.0.0 || ^7.0.0",
-    "@googlemaps/markerclusterer": "^2.0.0"
-  },
-  "homepage": "https://ng-maps.github.io/marker-clusterer",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ng-maps/ng-maps/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ng-maps/ng-maps.git"
+    "@angular/platform-browser-dynamic": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "@elionidrizi/ng-maps-core": "^7.0.0",
+    "rxjs": "^6.5.3 || ^7.4.0",
+    "zone.js": "~0.12.0 || ~0.13.0 || ~0.14.0 || ~0.15.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
-  }
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ]
 }
