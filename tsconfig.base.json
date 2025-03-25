@@ -13,8 +13,8 @@
     "target": "es2020",
     "module": "esnext",
     "lib": ["es2022", "dom"],
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
+    "skipLibCheck": false,
+    "skipDefaultLibCheck": false,
     "baseUrl": ".",
     "paths": {
       "@ng-maps/core": ["libs/core/src/public-api.ts"],
